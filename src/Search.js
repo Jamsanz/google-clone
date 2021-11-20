@@ -16,7 +16,6 @@ function Search({ hideButtons = false }) {
     const {
       transcript,
       listening,
-      resetTranscript,
     } = useSpeechRecognition();
 
     const search = (e) => {

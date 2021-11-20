@@ -48,6 +48,7 @@ function Search({ hideButtons = false }) {
                   onTouchEnd={SpeechRecognition.stopListening}
                   onMouseDown={SpeechRecognition.startListening}
                   onMouseUp={SpeechRecognition.stopListening}
+                  style={{cursor: 'pointer'}}
                 />
             </div>
 

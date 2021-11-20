@@ -10,13 +10,15 @@ import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognitio
 
 function Search({ hideButtons = false }) {
 
-    const [{}, dispatch] = useStateValue();
+    const [{term}, dispatch] = useStateValue();
     const [input, setInput] = useState('');
     const history = useHistory();
     const {
       transcript,
       listening,
     } = useSpeechRecognition();
+
+    console.log(term);
 
     const search = (e) => {
         e.preventDefault();

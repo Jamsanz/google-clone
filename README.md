@@ -11,4 +11,4 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Can also be viewed at https://clone-ae322.web.app/
+Can also be viewed at https://google.jamsanz.xyz/
